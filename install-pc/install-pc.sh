@@ -13,6 +13,14 @@ Yay -S librewolf-bin portmaster-stub-bin btrfs-assistant
 
 flatpak install io.github.vikdevelop.SaveDesktop 
 
+## Beautify bash
+
+cat ./beautify-bash.txt >> ~/.bashrc
+
+## Configurazione ranger
+
+ranger --copy-config=all
+
 ## Configurazione neovim
 
 # Importiamo lo script per configurare neovim e lo eseguiamo
@@ -20,5 +28,7 @@ flatpak install io.github.vikdevelop.SaveDesktop
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # impostiamo neovim come editor di default per il terminale
+
+cat ./deafult-neovim.txt >> ~/.bashrc
 
 
